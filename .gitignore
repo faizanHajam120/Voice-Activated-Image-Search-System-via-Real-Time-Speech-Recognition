@@ -1,0 +1,22 @@
+__pycache__/
+*.py[cod]
+*.egg-info/
+.env
+.venv/
+venv/
+dist/
+build/
+.idea/
+.vscode/
+.DS_Store
+*.faiss
+*.pkl
+datasets/
+data/
+old kaggl dataset/
+images/**/*.zip
+*.log
+*.json
+*credentials*.json
+realtimestt-*.json
+service_account*.json
