@@ -1,6 +1,13 @@
 # Voice-Activated Image Search System via Real-Time Speech Recognition
 
+[![Python](https://img.shields.io/badge/Python-3.8+-blue.svg)](https://python.org)
+[![License](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
+[![Google Cloud](https://img.shields.io/badge/Google%20Cloud-STT-orange.svg)](https://cloud.google.com/speech-to-text)
+[![FAISS](https://img.shields.io/badge/FAISS-Vector%20Search-red.svg)](https://github.com/facebookresearch/faiss)
+
 A sophisticated image search system that allows users to search through image collections using voice commands powered by Google Cloud Speech-to-Text API and real-time speech recognition.
+
+**Keywords**: `voice-recognition` `image-search` `speech-to-text` `faiss` `google-cloud` `tkinter` `python` `ai` `machine-learning` `computer-vision` `nlp` `desktop-application` `gui` `real-time` `audio-processing`
 
 ## 🎨 Interactive Canvas
 

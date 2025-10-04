@@ -61,7 +61,7 @@ setup(
     package_data={
         "": ["*.faiss", "*.pkl", "*.json"],
     },
-    keywords="voice recognition, image search, speech-to-text, faiss, google-cloud, ai, ml",
+    keywords="voice-recognition, image-search, speech-to-text, faiss, google-cloud, tkinter, python, ai, machine-learning, computer-vision, nlp, desktop-application, gui, real-time, audio-processing, vector-search, semantic-search, voice-interface, image-retrieval, speech-recognition, google-cloud-stt, faiss-index, tkinter-gui, python-application, artificial-intelligence, ml, cv, natural-language-processing, desktop-gui, real-time-processing, audio-analysis",
     project_urls={
         "Bug Reports": "https://github.com/faizanHajam120/Voice-Activated-Image-Search-System-via-Real-Time-Speech-Recognitio/issues",
         "Source": "https://github.com/faizanHajam120/Voice-Activated-Image-Search-System-via-Real-Time-Speech-Recognitio",
