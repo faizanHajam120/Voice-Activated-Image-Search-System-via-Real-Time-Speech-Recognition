@@ -3,8 +3,6 @@ version: '3.8'
 services:
   voice-image-search:
     build: .
-    ports:
-      - "8000:8000"
     volumes:
       - ./keys:/app/keys:ro  # Mount GCP credentials
       - ./images:/app/images:ro  # Mount image dataset
@@ -12,12 +10,7 @@ services:
       - ./image_map.pkl:/app/image_map.pkl:ro
     environment:
       - GOOGLE_APPLICATION_CREDENTIALS=/app/keys/service-account-key.json
-      - API_HOST=0.0.0.0
-      - API_PORT=8000
+      - DISPLAY=${DISPLAY:-:0}  # For GUI display
     restart: unless-stopped
-    healthcheck:
-      test: ["CMD", "curl", "-f", "http://localhost:8000/"]
-      interval: 30s
-      timeout: 10s
-      retries: 3
-      start_period: 40s
+    # Note: This is a GUI application, not a web service
+    # Run with: docker-compose up --build

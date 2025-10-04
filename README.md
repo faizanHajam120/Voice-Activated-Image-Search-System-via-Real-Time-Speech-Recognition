@@ -41,17 +41,17 @@ A sophisticated image search system that allows users to search through image co
 ## 🚀 Quickstart
 
 ```bash
-# Start the FastAPI server
-uvicorn main_app:app --reload
+# Start the GUI application
+python main_app.py
 
-# Or run the real-time speech recognition
+# Or run the real-time speech recognition directly
 python realtimesttfinal.py
 ```
 
 ## 📁 Project Structure
 
 ```
-├── main_app.py              # FastAPI application
+├── main_app.py              # Tkinter GUI application
 ├── search_engine.py         # Image search functionality
 ├── realtimesttfinal.py      # Real-time speech recognition
 ├── create_index.py          # FAISS index creation
@@ -79,21 +79,23 @@ python create_index.py
 
 ## 🎯 Usage
 
-### API Endpoints
-- `GET /` - Health check
-- `POST /search` - Search images by text query
-- `POST /voice-search` - Search images using voice input
+### GUI Application
+The main application provides a Tkinter-based GUI interface:
+- **Voice Input**: Click to start voice recognition
+- **Text Search**: Type queries directly
+- **Image Results**: Visual display of search results
+- **Real-time Processing**: Live speech-to-text conversion
 
-### Example API Usage
-```python
-import requests
+### Command Line Usage
+```bash
+# Run the GUI application
+python main_app.py
 
-# Text-based search
-response = requests.post("http://localhost:8000/search", 
-                        json={"query": "red car"})
+# Run speech recognition only
+python realtimesttfinal.py
 
-# Voice-based search
-response = requests.post("http://localhost:8000/voice-search")
+# Create image index
+python create_index.py
 ```
 
 ## 🔍 How It Works

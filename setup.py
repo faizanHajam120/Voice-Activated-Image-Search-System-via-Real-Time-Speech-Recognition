@@ -54,7 +54,7 @@ setup(
     },
     entry_points={
         "console_scripts": [
-            "voice-image-search=main_app:main",
+            "voice-image-search=main_app:ImageSearchApp",
         ],
     },
     include_package_data=True,
