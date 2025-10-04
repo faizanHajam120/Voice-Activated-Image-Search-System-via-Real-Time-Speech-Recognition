@@ -2,6 +2,10 @@
 
 A sophisticated image search system that allows users to search through image collections using voice commands powered by Google Cloud Speech-to-Text API and real-time speech recognition.
 
+## 🎨 Interactive Canvas
+
+**Visual Project Overview**: [View Interactive Canvas](https://g.co/gemini/share/e37e38328f2e) - Explore the project architecture, features, and system design through an interactive Gemini-generated webpage.
+
 ## 🚀 Features
 
 - **Real-time Speech Recognition**: Convert spoken queries to text using Google Cloud STT
@@ -123,6 +127,22 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 - FAISS for efficient similarity search
 - FastAPI for the web framework
 - The open-source community
+
+## 🎨 Project Showcase
+
+### Interactive Canvas
+Explore the project through our interactive Gemini canvas:
+- **Architecture Diagrams**: Visual system design
+- **Feature Walkthrough**: Interactive feature demonstration  
+- **Technology Stack**: Visual technology overview
+- **User Journey**: Step-by-step user experience
+
+[**🚀 View Interactive Canvas**](https://g.co/gemini/share/e37e38328f2e)
+
+### Visual Documentation
+- [Canvas Documentation](docs/CANVAS.md) - Detailed canvas guide
+- [API Documentation](API.md) - Complete API reference
+- [Project Roadmap](ROADMAP.md) - Future development plans
 
 ## 📞 Support
 
