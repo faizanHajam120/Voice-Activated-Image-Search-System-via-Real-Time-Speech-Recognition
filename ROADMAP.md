@@ -16,35 +16,35 @@ This document outlines the planned features and improvements for the Voice-Activ
 
 ## 🚀 Upcoming Features
 
-### Version 1.1.0 (Q1 2024)
+### Version 1.1.0 (Q1 2026)
 - [ ] **Web Interface**: Add a modern web-based UI using React/Vue.js
 - [ ] **API Documentation**: Swagger/OpenAPI documentation
 - [ ] **Batch Processing**: Support for processing multiple images at once
 - [ ] **Image Preprocessing**: Automatic image enhancement and normalization
 - [ ] **Search Filters**: Filter results by date, size, format, etc.
 
-### Version 1.2.0 (Q2 2024)
+### Version 1.2.0 (Q2 2026)
 - [ ] **Multi-language Support**: Support for multiple languages in speech recognition
 - [ ] **Advanced NLP**: Better query understanding with intent recognition
 - [ ] **Search History**: Save and manage search history
 - [ ] **Favorites System**: Bookmark favorite images
 - [ ] **Export Functionality**: Export search results to various formats
 
-### Version 2.0.0 (Q3 2024)
+### Version 2.0.0 (Q3 2026)
 - [ ] **Cloud Deployment**: One-click deployment to AWS/GCP/Azure
 - [ ] **User Authentication**: User accounts and personalized search
 - [ ] **Collaborative Features**: Share search results and collections
 - [ ] **Mobile App**: Native mobile applications (iOS/Android)
 - [ ] **Advanced Analytics**: Search analytics and insights
 
-### Version 2.1.0 (Q4 2024)
+### Version 2.1.0 (Q4 2026)
 - [ ] **AI-Powered Suggestions**: Smart search suggestions based on context
 - [ ] **Voice Commands**: Advanced voice command system
 - [ ] **Integration APIs**: Connect with external services (Google Photos, Dropbox, etc.)
 - [ ] **Custom Models**: Support for custom image recognition models
 - [ ] **Performance Optimization**: GPU acceleration and caching
 
-## 🔮 Long-term Vision (2025+)
+## 🔮 Long-term Vision (2027+)
 
 ### Advanced AI Features
 - [ ] **Semantic Understanding**: Better understanding of complex queries
@@ -131,6 +131,6 @@ This roadmap is reviewed and updated quarterly. We consider:
 ---
 
 **Last Updated**: October 2024  
-**Next Review**: January 2025
+**Next Review**: January 2026
 
 *This roadmap is a living document and may change based on community feedback and technical considerations.*
