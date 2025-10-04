@@ -20,3 +20,19 @@ images/**/*.zip
 *credentials*.json
 realtimestt-*.json
 service_account*.json
+
+# Docker
+.dockerignore
+
+# Testing
+.coverage
+.pytest_cache/
+htmlcov/
+
+# IDE
+*.swp
+*.swo
+*~
+
+# OS
+Thumbs.db

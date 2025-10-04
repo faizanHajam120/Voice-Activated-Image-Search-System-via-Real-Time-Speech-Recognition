@@ -1,0 +1,23 @@
+version: '3.8'
+
+services:
+  voice-image-search:
+    build: .
+    ports:
+      - "8000:8000"
+    volumes:
+      - ./keys:/app/keys:ro  # Mount GCP credentials
+      - ./images:/app/images:ro  # Mount image dataset
+      - ./image_index.faiss:/app/image_index.faiss:ro
+      - ./image_map.pkl:/app/image_map.pkl:ro
+    environment:
+      - GOOGLE_APPLICATION_CREDENTIALS=/app/keys/service-account-key.json
+      - API_HOST=0.0.0.0
+      - API_PORT=8000
+    restart: unless-stopped
+    healthcheck:
+      test: ["CMD", "curl", "-f", "http://localhost:8000/"]
+      interval: 30s
+      timeout: 10s
+      retries: 3
+      start_period: 40s
